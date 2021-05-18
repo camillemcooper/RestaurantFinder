@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-around",
     overflow: "scroll",
     height: "calc(100% - 15px)",
+    width: "calc(100vw - 30px)",
     paddingBottom: 20,
     [theme.breakpoints.down("xs")]: { width: "80vw" },
   },
@@ -60,6 +61,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-around",
+    width: "calc(100vw - 30px)",
   },
   header: {
     display: "flex",
